@@ -1,0 +1,95 @@
+.columnBox {
+  display: flex;
+  flex-flow: column;
+  width: 75% !important;
+}
+.cart__container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 1.2rem;
+  justify-content: space-around;
+  /* margin-bottom: 5rem; */
+}
+
+.cartSidebar__section {
+  /* background-color: #212529; */
+  color: #212529;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 5.7rem;
+  right: 0;
+  width: 20%;
+  margin: 10px 10px 0 10px;
+  height: 88vh;
+  border: 1px solid #212529;
+}
+.cartSidebar__priceInfo {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.order__description {
+  max-height: 300px;
+  overflow: auto;
+}
+.goback__btn {
+  color: blue !important;
+  text-decoration: underline !important;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  margin: 1rem 0;
+}
+.goback__btn:hover {
+  color: red !important;
+}
+#paymentMode {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+.modal__btns {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+.modal__btns button {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 0.8rem 1.8rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.modal__btns button:hover {
+  background-color: rgb(2, 91, 224);
+}
+.modal__btns button:disabled {
+  background-color: rgba(2, 91, 224, 0.493);
+}
+
+.price-tag {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.price-discountedPrice {
+  font-size: 16px;
+  margin-left: 6px;
+  vertical-align: middle;
+  color: #878787;
+  text-decoration: line-through;
+}
+.price-discountedPercentage {
+  color: #26a541;
+  font-size: 16px;
+  margin-left: 6px;
+  font-weight: bolder;
+}

@@ -1,0 +1,22 @@
+.fiterSidebar__section {
+  background-color: white;
+  width: 20%;
+  min-width: 10%;
+  min-height: 88vh;
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+.filter {
+  margin: 1rem 0.5rem;
+}
+.filter input {
+  font-size: 1.2rem;
+}
+.filter label {
+  font-size: 1.2rem;
+}
+.fiterSidebar__section button {
+  min-width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+}

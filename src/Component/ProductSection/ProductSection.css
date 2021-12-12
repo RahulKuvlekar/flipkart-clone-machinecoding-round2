@@ -1,0 +1,22 @@
+.productsection {
+  background-color: white;
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding: 1.5rem 0;
+}
+.product_item {
+  min-height: 300px;
+  max-height: 450px;
+  /* min-width: 300px; */
+  max-width: 300px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0.5rem;
+}
+.product_item img {
+  max-width: 100%;
+  object-fit: contain;
+}
